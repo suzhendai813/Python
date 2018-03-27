@@ -1,0 +1,31 @@
+import unittestclass 
+MyTestCase(unittest.TestCase):
+  def test_something(self):        
+    self.assertEqual(True, False)    
+  def test_Array(self):        
+    array=range(1,10,1) # range(x:int, y:int=0,step:int =1)        
+    print()        
+    print("use range(1,10,1) set array =%s" %array)        
+    print("array[:-2] = %s"%array[:-2])        
+    print("array[::-2] =%s"%array[::-2])        
+    print("array[::2]=%s"%array[::2])        
+    print("array[9::-2] =%s" % array[9::-2])        
+    print("array[8::-2] =%s" % array[8::-2])        
+    print("array[7::-2] =%s" % array[7::-2])        
+    print("array[7:0:-2] =%s" % array[7:0:-2])        
+    print("array[7:1:-2] =%s" % array[7:1:-2])        
+    arrTemp2=[x for x in range(1,10)]        
+    print("use arrTemp2=[x for x in range(1,10)] set arrTemp2 =%s"% arrTemp2)        
+    arrTemp3 = [[x for x in range(1, 5)] for y in range(1,5)]        
+    print("use arrTemp3 = [[x for x in range(1, 5)] for y in range(1,5)]")        
+    print("arrTemp3 =%s" % arrTemp3)
+if __name__ == '__main__':    
+  unittest.main()
+
+
+
+
+
+
+
+
