@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
 
 #-----output--
-#array[x:y:z]  x is start, y is end, z is step, if step>0, searched and displayed from front to back, if step <0: back to front
+#array[x:y:z]  x is start, y is end and not include self, z is step, if step>0, searched and displayed from front to back, if step <0: back to front
 use range(1,10,1) set array =[1, 2, 3, 4, 5, 6, 7, 8, 9]
 array[:-2] = [1, 2, 3, 4, 5, 6, 7]
 array[::-2] =[9, 7, 5, 3, 1]
