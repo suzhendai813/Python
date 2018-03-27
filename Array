@@ -21,3 +21,19 @@ MyTestCase(unittest.TestCase):
     print("arrTemp3 =%s" % arrTemp3)
 if __name__ == '__main__':    
   unittest.main()
+
+
+#-----output--
+#array[x:y:z]  x is start, y is end, z is step, if step>0, searched and displayed from front to back, if step <0: back to front
+use range(1,10,1) set array =[1, 2, 3, 4, 5, 6, 7, 8, 9]
+array[:-2] = [1, 2, 3, 4, 5, 6, 7]
+array[::-2] =[9, 7, 5, 3, 1]
+array[::2]=[1, 3, 5, 7, 9]
+array[9::-2] =[9, 7, 5, 3, 1]
+array[8::-2] =[9, 7, 5, 3, 1]
+array[7::-2] =[8, 6, 4, 2]
+array[7:0:-2] =[8, 6, 4, 2]
+
+array[7:1:-2] =[8, 6, 4]use arrTemp2=[x for x in range(1,10)] set arrTemp2 =[1, 2, 3, 4, 5, 6, 7, 8, 9]
+use arrTemp3 = [[x for x in range(1, 5)] for y in range(1,5)]
+arrTemp3 =[[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]]
