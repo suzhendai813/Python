@@ -21,11 +21,3 @@ MyTestCase(unittest.TestCase):
     print("arrTemp3 =%s" % arrTemp3)
 if __name__ == '__main__':    
   unittest.main()
-
-
-
-
-
-
-
-
